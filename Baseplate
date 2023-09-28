@@ -1,1 +1,8 @@
-F
+Frame: Frame.Active = true
+Frame.Draggable = true
+
+Button: BUTTONNAMEHERE.MouseButton1Down:connect(function()
+ScriptHere
+end)
+
+close on reset: ScreenGui.ResetOnpawn = false
